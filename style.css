@@ -1,0 +1,195 @@
+:root{
+    --leftcolor1:hsl(252, 100%, 67%);
+    --leftcolor2:hsl(241, 81%, 54%);
+
+    --Cir1:hsla(256, 72%, 46%, 1);
+    --cir2:hsla(241, 72%, 46%, 0);
+
+    --text:hsl(241, 100%, 89%);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.Cart{
+    display: flex;
+    background-color:white;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    font-family: "Hanken Grotesk";
+    font-weight: 500, 700, 800;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 100px;
+}
+#Left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    row-gap: 20px;
+    padding-inline:25px;
+    color: white;
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+}
+#Circle{
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+    
+ }
+#number{
+ font-size: 280%;
+ font-weight: bolder;
+    
+}
+.Text1{
+    color: var(--text);
+}
+#Right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 50%;
+    height: 450px;
+    background-color: white;
+    border-radius: 40px;
+}
+.box{
+    width: 75%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#head{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    padding-top: 40px;
+}
+#Btn{
+    width: 75%;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+}
+#d1{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 33%, 92%);
+    color: hsl(0, 50%, 52%);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.part1{
+    padding-right: 50px;
+}
+#d2{
+     display: flex;
+    flex-direction: row;
+    background-color: hsl(40, 30%, 92%);;
+    color:  hsl(39, 100%, 56%);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.part12{
+    padding-right: 50px;
+}
+#d3{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(166, 51%, 92%);
+    color:  hsl(166, 100%, 37%);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.part13{
+    padding-right: 50px;
+}
+#d4{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(234, 57%, 89%);
+    color:  hsl(234, 85%, 45%);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: space-around;
+}
+.part14{
+     padding-right: 50px;
+}
+@media (mix-width:600px) {
+    
+}
+@media (max-width:600px) {
+    body{
+        background-color: white;
+    }
+    .Cart{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        margin-top: 0%;
+        width: 96%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        background-color: white;
+    }
+    #Left{
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 400px;
+    }
+    #Right{
+        width: 100%;
+    }
+    .box{
+        width: 90%;
+        height: 150px;
+    }
+    #Btn{
+        width: 90%;
+        height: 120px;
+        background: #141414;
+    }
+    
+    
+}
